@@ -89,13 +89,13 @@ Script name     |Description
 
 ### Old
 
-![WinSCP page](winscp.png)
+![WinSCP page](winscp_with_border.png)
 
 > [WinSCP page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_winscp/)
 
 ### New
 
-![FileZilla page](filezilla.png)
+![FileZilla page](filezilla_with_border.png)
 
 > [FileZilla page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
 
