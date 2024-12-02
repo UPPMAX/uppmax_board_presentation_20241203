@@ -8,7 +8,7 @@ csl: vancouver.csl
 css: styles.css
 slide-number: true
 number-sections: true
-number-offset: -1
+number-offset: -0
 ---
 
 # UPPMAX board meeting
@@ -17,17 +17,25 @@ number-offset: -1
 
 <https://github.com/UPPMAX/uppmax_board_presentation_20241203>
 
-# Introduction
-
 ## Goal
 
-To show how awesome the UPPMAX documentation is
+To show something cool we do at UPPMAX: the user documentation at <https://docs.uppmax.uu.se/>
 
-## History
+![](home_with_border.png)
+
+## Before
+
+:::: {.columns}
+
+::: {.column width="50%"}
 
 Created 2022-11-10 by Matias Piqueras, with Björn Claremar starting at 2023-01-13.
 
-``` mermaid
+:::
+
+::: {.column width="50%"}
+
+```{mermaid}
 flowchart TD
   tickets[Tickets]
   content[Content]
@@ -38,9 +46,27 @@ flowchart TD
   courses --> |Inspire| content
 ```
 
+:::
+
+::::
+
 ## Now
 
-``` mermaid
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Humans
+- Content
+- Scripts
+
+:::
+
+::: {.column width="50%"}
+
+
+```{mermaid}
 flowchart TD
   tickets[Tickets]
   content[Content]
@@ -59,20 +85,40 @@ flowchart TD
   issues --> |Inspire| content
 ```
 
-Humans:
+:::
+
+::::
+
+
+
+## Humans
+
+:::: {.columns}
+
+::: {.column width="50%"}
 
 -   8 Contributors
 -   2,346 commits
 -   21 Pull Requests by 6 people
 -   132 issues, of which 101 closed
--   67 YouTube videos
-    -   Connect to SweStore: 377 views
-    -   Migration to Dardel: 281 views
-    -   Rackham using local ThinLinc client: 139 views
 -   A Code of Conduct
 -   A document on how to contribute
 
-Content:
+:::
+
+::: {.column width="50%"}
+
+![](contributors.png)
+
+:::
+
+::::
+
+## Content
+
+:::: {.columns}
+
+::: {.column width="50%"}
 
 -   708 pages
 -   87 pages with tags
@@ -80,8 +126,24 @@ Content:
 -   339 images
 -   35,416 lines
 -   2,125 internal links
+-   67 YouTube videos
 
-Scripts:
+<!--     -   Connect to SweStore: 377 views
+    -   Migration to Dardel: 281 views
+    -   Rackham using local ThinLinc client: 139 views
+-->
+
+:::
+
+::: {.column width="50%"}
+
+![](dardel_migration_page.png)
+
+:::
+
+::::
+
+## Scripts
 
 -   5 continuous integration scripts, by 4 people
 
@@ -93,35 +155,31 @@ Scripts:
 | `check_spelling` | Checks is spelling is correct                       |
 | `create_website` | Creates and deploys the website                     |
 
-## Example change
+## [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
 
-## Issue
+![](issue.png)
 
-![Issue](issue.png)
+## [WinSCP page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_winscp/)
 
-> [Issue 129](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
+![](winscp_with_border.png)
 
-## Old
+## [FileZilla page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
 
-![WinSCP page](winscp_with_border.png)
+![](filezilla_with_border.png)
 
-> [WinSCP page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_winscp/)
-
-## New
-
-![FileZilla page](filezilla_with_border.png)
-
-> [FileZilla page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
-
-## Changes
+## What it shows 1/3
 
 It shows we care about quality:
 
 -   The documentation is good enough to be used in courses, where courses ensure the documentation is kept up-to-date
 
+## What it shows 2/3
+
 It shows we care about efficiency:
 
 -   The documentation is good enough to solve tickets by sending one URL, where tickets inspire to improve the documentation
+
+## What it shows 3/3
 
 It shows we care about users:
 
@@ -130,6 +188,13 @@ It shows we care about users:
 -   Each page has an icon that allows a user to propose changes
 -   We detect as much mistakes as possible automatically
 
-We know we do a good job: - When asked if documentation is clear, it usually is. - When not, the documentation is updated :-) - We get compliments from users in courses for having such clear documentation - Also: people migrating to Dardel complain about the PDC documentation
+## What we know
 
-# References {#references}
+We know we do a good job: 
+
+- When asked if documentation is clear, it usually is. 
+  - When not, the documentation is updated :+1:
+- We get compliments from users in courses for having such clear documentation 
+  - Also: people migrating to Dardel complain about the PDC documentation :smiley:
+
+## The end
