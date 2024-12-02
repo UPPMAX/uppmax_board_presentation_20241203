@@ -79,6 +79,26 @@ Script name     |Description
 `check_spelling`|Checks is spelling is correct
 `create_website`|Creates and deploys the website
 
+## Example change
+
+### Issue
+
+![Issue](issue.png)
+
+> [Issue 129](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
+
+### Old
+
+![WinSCP page](winscp.png)
+
+> [WinSCP page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_winscp/)
+
+### New
+
+![FileZilla page](filezilla.png)
+
+> [FileZilla page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
+
 ## Changes
 
 It shows we care about quality:
