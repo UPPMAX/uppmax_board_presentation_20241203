@@ -19,32 +19,26 @@ number-offset: -0
 
 ## Goal
 
-To show something cool we do at UPPMAX: the documentation for users at <https://docs.uppmax.uu.se/>
+To show something we do well at UPPMAX: the documentation for users at <https://docs.uppmax.uu.se/>
 
 ![](home_with_border.png)
 
 ## Spoiler
 
-> Documentation is always good, of course.
->
-> A beloved UPPMAX colleague
-
 Our user documentation shows, that we care about:
 
-- quality
-- efficiency
-- our users
+-   quality
+-   efficiency
+-   our users
 
-(and there is an upper limit to documenting)
-
-## Before
+## History
 
 ::::: columns
 ::: {.column width="50%"}
-Created 2022-11-10 by Matias Piqueras, with Björn Claremar starting at 2023-01-13.
+The GitHub repository for our documentation was created
+on 2022-11-10 by Matias Piqueras, with Björn Claremar joining at 2023-01-13.
 
-UU used InfoGlue at that time,
-which is now replaced by SiteVision.
+UU used InfoGlue at that time, which is now replaced by SiteVision.
 :::
 
 ::: {.column width="50%"}
@@ -141,7 +135,6 @@ flowchart TD
 
 | Script name      | Description                                         |
 |------------------|-----------------------------------------------------|
-| `check_bash`     | Checks if bash scripts follow a recommended style   |
 | `check_links`    | Checks if all links are valid                       |
 | `check_markdown` | Checks if pages content follows a recommended style |
 | `check_spelling` | Checks is spelling is correct                       |
@@ -149,22 +142,22 @@ flowchart TD
 
 ## Technology comparison 1/2
 
-Parameter                |User documentation |`uu.se` pages
--------------------------|-------------------|--------------------
-Technology               |MkDocs             |SiteVision
-Text editor              |Plain-text markdown|WYSIWYG
-Deployment               |Every commit       |Every change
-Version control          |`git`              |Some
-Spellcheck               |Every commit       |When creating a page
+| Parameter       | User documentation  | `uu.se` pages        |
+|-----------------|---------------------|----------------------|
+| Technology      | MkDocs              | SiteVision           |
+| Text editor     | Plain-text markdown | WYSIWYG              |
+| Deployment      | Every commit        | Every change         |
+| Version control | `git`               | Some                 |
+| Spellcheck      | Every commit        | When creating a page |
 
 ## Technology comparison 2/2
 
-Parameter                |User documentation |`uu.se` pages
--------------------------|-------------------|--------------------
-Layout check             |Every commit       |When creating a page
-URL link check           |Every commit       |When creating a page
-Bug tracker              |GitHub issues      |None, ?RT
-Interaction with user    |Issues, PRs, email |Email
+| Parameter             | User documentation | `uu.se` pages        |
+|-----------------------|--------------------|----------------------|
+| Layout check          | Every commit       | When creating a page |
+| URL link check        | Every commit       | When creating a page |
+| Bug tracker           | GitHub issues      | None, ?RT            |
+| Interaction with user | Issues, PRs, email | Email                |
 
 ## [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
 
@@ -189,32 +182,39 @@ Interaction with user    |Issues, PRs, email |Email
 It shows we care about quality:
 
 -   The documentation is good enough to be used in courses, where courses ensure the documentation is kept up-to-date
+-   We detect as much mistakes as possible automatically
 
 ## What it shows 2/3
 
 It shows we care about efficiency:
 
--   The documentation is good enough to solve tickets by sending one URL, 
-    where tickets inspire to improve the documentation
-
-The **is** an upper limit on what to document.
+-   The documentation is good enough to solve tickets by sending one URL, where tickets inspire to improve the documentation
 
 ## What it shows 3/3
 
 It shows we care about users:
 
+-   We care about quality for them
 -   Uses can create issues, which are discussed in the documentation meetings
 -   Users can submit changes via a Pull Request, which are discussed in the documentation meetings
 -   Each page has an icon that allows a user to propose changes
--   We detect as much mistakes as possible automatically
 
-## What we know
+## What we think
 
-We know we do a good job:
+We think we do a good job:
 
 -   When asked if documentation is clear, it usually is.
     -   When not, the documentation is updated :+1:
 -   We get compliments from users in courses for having such clear documentation
     -   Also: people migrating to Dardel complain about the PDC documentation :smiley:
+-   (May be related: other centers (LUNARC, PDC) have started using MkDocs too)
+
+## Take home message
+
+Our user documentation shows, that we care about:
+
+-   quality
+-   efficiency
+-   our users
 
 ## The end
