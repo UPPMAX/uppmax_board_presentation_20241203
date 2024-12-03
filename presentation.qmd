@@ -35,8 +35,7 @@ Our user documentation shows, that we care about:
 
 ::::: columns
 ::: {.column width="50%"}
-The GitHub repository for our documentation was created
-on 2022-11-10 by Matias Piqueras, with Björn Claremar joining at 2023-01-13.
+The GitHub repository for our documentation was created on 2022-11-10 by Matias Piqueras, with Björn Claremar joining at 2023-01-13.
 
 UU used InfoGlue at that time, which is now replaced by SiteVision.
 :::
